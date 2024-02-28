@@ -7,9 +7,9 @@ import cv2
 import matplotlib.pyplot
 
 
-def image_resize(desired_height, desired_width):
+def image_resize(desired_height, desired_width, path_from_user):
     # Getting the image path
-    path = "D:\FIT\Junior Year\Official classes\SPRING 2024\Image Processing (IPR)\IPR_Assignment 1\Speakers'_Corner,_Singapore_20220218_081547.jpg"
+    path = path_from_user
 
     # Reading the image
     img = cv2.imread(path)

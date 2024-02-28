@@ -48,16 +48,43 @@ width_var = tkinter.StringVar()
 width = customtkinter.CTkEntry(app, width=500, height = 50, border_color="blue", textvariable=width_var)
 width.pack(padx=10,pady=10)
 
+# A function to handle the resize function (by calling )
 def handle_resize():
     desired_height = int(height.get())
     desired_width = int(width.get())
-    ImgResize.image_resize(desired_height, desired_width)
+    path_from_user = filepath
+    ImgResize.image_resize(desired_height, desired_width, path_from_user)
     
 """_summary_
 Add a button to resize image
 """
 button = customtkinter.CTkButton(master=app, text="Resize Image", command=handle_resize)
 button.place(relx=0.5, rely=0.5, anchor=customtkinter.CENTER)
+
+
+
+
+
+def handle_path_input():
+    # TODO: THIS FUNCTION
+    from customtkinter import filedialog
+    
+    # Set to global (in lieu of .get() from box input)
+    global filepath
+    
+    
+    # Specify what kind of file is accepted
+    filepath = filedialog.askopenfilename(title = "Please select a PHOTO file", filetypes=('image files', ('.png', '.jpg')))
+    
+    
+    # Remember to modify the code at back end to take into account the filepath: 
+
+# Sample code to add another button:
+button = customtkinter.CTkButton(master=app, text="Select Image", command = handle_path_input)
+button.place(relx=0.5, rely=0.6, anchor=customtkinter.CENTER)
+
+# Add a button call back to handle input:
+
 
 
 app.mainloop()
