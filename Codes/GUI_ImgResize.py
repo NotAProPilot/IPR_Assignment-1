@@ -74,7 +74,13 @@ def handle_path_input():
     
     
     # Specify what kind of file is accepted
-    filepath = filedialog.askopenfilename(title = "Please select a PHOTO file", filetypes=('image files', ('.png', '.jpg')))
+    filepath = filedialog.askopenfilename(
+    title="Please select an image file",
+    filetypes=[
+        (("All Images", "*.png;*.jpg;*.jpeg;*.svg;*.bmp;*.gif"))
+    ]
+)
+
     
     
     # Remember to modify the code at back end to take into account the filepath: 
