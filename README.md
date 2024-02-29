@@ -71,8 +71,13 @@ Press "Display Binary Image", and a Mathplotlib plot will show both the original
 ## Frequently Asked Questions (FAQs)
 ### Do i need to install any outside libraries?
 Yes. You will need the following:
-- tkinter (install by ``
-
+- customtkinter (install by `pip install customtkinter==0.3`)
+- OpenCV (install by `pip install opencv-python`)
+- Mathplotlib (install by `pip install matplotlib`)
+(tkinter is buitt-in in Python, but you still need to import it by:)
+```py
+import tkinter
+```
 
 ## Acknowledgement:
 This Assignment made extensive use of the [CustomTkinter library](https://github.com/TomSchimansky/CustomTkinter).
