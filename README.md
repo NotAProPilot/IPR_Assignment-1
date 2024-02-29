@@ -69,4 +69,13 @@ Press "Display Binary Image", and a Mathplotlib plot will show both the original
 ![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/adf91ac0-26c7-44cf-8c2e-b9574e5b8994)
 
 ## Acknowledgement:
-This Assignment made extensive use of the [CustomTkinter library](https://github.com/TomSchimansky/CustomTkinter)
+This Assignment made extensive use of the [CustomTkinter library](https://github.com/TomSchimansky/CustomTkinter).
+
+For debugging, I want to thanks the following StackOverflow thread for the following fixes:
+- [Photo size might be read as empty by CV2](https://stackoverflow.com/questions/52162004/i-am-having-trouble-with-this-error-215assertion-failed-ssize-empty-in-fu)
+- [Save filepath as an object, simillar to how to handle input from box](https://stackoverflow.com/questions/61312896/saving-file-path-in-a-variable-using-tkinter)
+- [Select multiple file type as one](https://stackoverflow.com/questions/40292705/tkinter-file-pattern-set-in-a-file-dialog)
+- [Displaying placeholder text properly](https://stackoverflow.com/questions/74973450/why-is-the-custom-tkinter-placeholder-text-for-an-entry-box-ignored)
+
+[For general approach to GUI via CustomTkinter](https://www.youtube.com/watch?v=NI9LXzo0UY0&t=1028s)
+
