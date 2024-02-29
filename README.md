@@ -1,3 +1,3 @@
-#IPR Assignment 1
+# IPR Assignment 1
 
 This GUI-based approach turns a normal, simple exercise about image resizing and binary image thresholding into a delightful interactive experience akin to playing with digital building blocks. Gone are the days of tediously typing commands into a terminal or wrestling with complicated software interfaces. With just a few clicks and drags, users can effortlessly manipulate images, transforming them with the finesse of a digital artist. The process becomes not just a task to be completed, but a creative endeavor, where each adjustment brings forth new possibilities and insights. In essence, it elevates the mundane task of image manipulation into a captivating journey of exploration and discovery.
