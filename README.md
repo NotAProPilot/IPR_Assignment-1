@@ -67,3 +67,6 @@ Then select the image you want to display binary image:
 
 Press "Display Binary Image", and a Mathplotlib plot will show both the original (in RGB color, if selected) and the binary image:
 ![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/adf91ac0-26c7-44cf-8c2e-b9574e5b8994)
+
+## Acknowledgement:
+This Assignment made extensive use of the [CustomTkinter library](https://github.com/TomSchimansky/CustomTkinter)
