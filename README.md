@@ -4,7 +4,6 @@ This GUI-based approach turns a normal, simple exercise about image resizing and
 
 ## Program structure:
 ![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/b024753e-24dd-4472-a72e-799733aa7f09)
-
 There are 2 requirements for this prorgam: Resize photo and display binary image. For each task, there are 2 files (as shown on the figure above): A GUI file that create the GUI windows, accept user inputs and parse them to the back end files (ImgResize and MakePhotoBinary). The structure can be shown in the diagram below: 
 ```md
 +-----------------------+           +-----------------------+            +-----------------------+
@@ -41,5 +40,7 @@ After downloading, your IDE will show 4 files: *GUI_ImgResize, GUI_MakePhotoBina
 
 #### Resize image
 First, run the `GUI_ImgResize` file. A window will pop up, like this:
+![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/f2d6dff8-af2d-4d43-9fd8-b8651d8c4ccb)
+
 
 
