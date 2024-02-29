@@ -23,7 +23,7 @@ console = customtkinter.CTk()
 
 # Set the size and title of the window
 console.geometry("860x480")
-console.title("IPR_Assignment 1")
+console.title("IPR_Assignment 1_Binary Photo")
 
 # Add text above the box to enter the threshold value
 # .pack is required to actually "pack" the element into the window
@@ -38,7 +38,7 @@ Codes for accepting inputed threshold value from user:
 threshold_from_user = tkinter.StringVar()
 
 # Set and pack the area to eneter value
-threshold = customtkinter.CTkEntry(console, width = 100, height = 50, border_color = "#d6e9ff", textvariable=threshold_from_user)
+threshold = customtkinter.CTkEntry(console, width = 100, height = 50, border_color = "#d6e9ff",placeholder_text="Enter threshold value")
 threshold.pack(padx=15, pady=15)
 
 
