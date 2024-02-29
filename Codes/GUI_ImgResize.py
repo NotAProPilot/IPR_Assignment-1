@@ -23,7 +23,7 @@ app = customtkinter.CTk()
 
 # Set the size and title of the window
 app.geometry("860x480")
-app.title("IPR_Assignment 1")
+app.title("IPR_Assignment 1_Resize Image")
 
 """_summary_
 Add UI elements
@@ -40,12 +40,12 @@ It is strongly recommend that StringVar is used, then use int(.get()) to convert
 """
 # Initialzing a height variable
 height_var = tkinter.StringVar()
-height = customtkinter.CTkEntry(app, width=500, height = 50, border_color="red", textvariable=height_var)
+height = customtkinter.CTkEntry(app, width=500, height = 50, border_color="red", textvariable=height_var, placeholder_text="Enter the height you want:")
 height.pack(padx=10,pady=10)
 
 # Initalizing a width variable
 width_var = tkinter.StringVar()
-width = customtkinter.CTkEntry(app, width=500, height = 50, border_color="blue", textvariable=width_var)
+width = customtkinter.CTkEntry(app, width=500, height = 50, border_color="blue", textvariable=width_var, placeholder_text="Enter the width you want: ")
 width.pack(padx=10,pady=10)
 
 # A function to handle the resize function (by calling )
