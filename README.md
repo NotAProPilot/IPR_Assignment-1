@@ -52,6 +52,18 @@ Then select the image you want to resize:
 Press "Resize Image", and the resized image will be displayed:
 ![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/b0a62203-4541-4bbb-8dc3-4126f7314523)
 
+#### Display binary image:
+First, run the `GUI_MakePhotoBinary` file. A window will pop up, like this:
+![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/73cb80dd-7296-4ec9-a652-12387498b6d5)
 
+Enter the binary threshold (must be between 0 and 255). For the best result, It's recommended set the binary value to 128:
+![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/fe3eedf0-f3e7-459b-a33a-06a70702e341)
 
+If you enter an out-of-bound binary threshold, a error message will pop up:
+![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/bef48627-9c57-4fb8-b834-13d7c6db1b4e)
 
+Then select the image you want to display binary image:
+![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/90510f28-382f-4120-978a-194460ea9d76)
+
+Press "Display Binary Image", and a Mathplotlib plot will show both the original (in RGB color, if selected) and the binary image:
+![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/adf91ac0-26c7-44cf-8c2e-b9574e5b8994)
