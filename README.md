@@ -36,4 +36,7 @@ There are 2 requirements for this prorgam: Resize photo and display binary image
 +-----------------------+
 ```
 ## Instruction
-### Run the program
+### Select the program
+After downloading, your IDE will show 4 files: **GUI_ImgResize, GUI_MakePhotoBinary, ImgResize, MakePhotoBinary** 
+
+
