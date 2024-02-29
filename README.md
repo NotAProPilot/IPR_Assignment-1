@@ -4,4 +4,5 @@ This GUI-based approach turns a normal, simple exercise about image resizing and
 
 ## Program structure:
 ![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/b024753e-24dd-4472-a72e-799733aa7f09)
+
 There are 2 requirements for this prorgam: Resize photo and display binary image. For each task, there are 2 files (as shown on the figure above)
