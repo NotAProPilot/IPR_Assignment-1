@@ -35,3 +35,5 @@ There are 2 requirements for this prorgam: Resize photo and display binary image
 | - Matplotlib          |
 +-----------------------+
 ```
+## Instruction
+### Run the program
