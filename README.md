@@ -48,8 +48,9 @@ Enter the height and the width (in pixel) of your photo that the resized image w
 
 Then select the image you want to resize:
 ![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/90510f28-382f-4120-978a-194460ea9d76)
-````diff - text in red: aaaaa
-```
+````diff
+- IMPORTANT: File name must not contain Unicode character (other than English character).
+````
 
 Press "Resize Image", and the resized image will be displayed:
 ![image](https://github.com/NotAProPilot/IPR_Assignment-1/assets/113848893/b0a62203-4541-4bbb-8dc3-4126f7314523)
